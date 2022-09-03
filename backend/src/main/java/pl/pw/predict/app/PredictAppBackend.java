@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PredictApp {
+public class PredictAppBackend {
 
 	public static void main(String[] args) {
-		SpringApplication.run( PredictApp.class, args);
+		SpringApplication.run( PredictAppBackend.class, args);
 	}
 
 }
